@@ -13,4 +13,9 @@
  <bean id="MusicBean2"
        class="org.example.RockMusic">
  </bean>
+ <bean id="MusicPlayer"
+       class="org.example.MusicPlayer">
+  <constructor-arg ref="MusicBean"/>
+ </bean>
+
 </beans>
